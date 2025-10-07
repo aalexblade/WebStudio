@@ -1,0 +1,47 @@
+# Виключити файли, що генеруються операційними системами та середовищами
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.ipynb_checkpoints/
+*.bak
+*.swp
+*~
+
+# Виключити файли, що генеруються інструментами та збірками
+/node_modules
+/bower_components
+/vendor
+/build
+/dist
+/out
+/target
+
+# Виключити файли конфігурації, що містять секрети або специфічні для користувача налаштування
+.env
+.local
+config.local.js
+*.log
+
+# Виключити файли, що генеруються IDE
+# Приклади для поширених IDE:
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs (IntelliJ, WebStorm, PyCharm, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
